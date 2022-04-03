@@ -1,6 +1,3 @@
-# Bluetooth
-ro.bluetooth.library_name=libbluetooth_qti.so
-
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
