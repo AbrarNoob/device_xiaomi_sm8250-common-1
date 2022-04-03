@@ -198,11 +198,6 @@ PRODUCT_PACKAGES += \
     libadpcmdec
 
 # Audio configs
-ifeq ($(TARGET_ENABLE_AUDIO_ULL),true)
-AUDIO_POLICY_CONFIGURATION_FILE := $(LOCAL_PATH)/audio/audio_policy_configuration_ull.xml
-else
-AUDIO_POLICY_CONFIGURATION_FILE := $(LOCAL_PATH)/audio/audio_policy_configuration.xml
-endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
